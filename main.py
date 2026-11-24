@@ -14,6 +14,8 @@ Usage:
 import sys
 from pathlib import Path
 
+# The sentence below is a fixed constant: the roast never changes
+# between runs, so repeated runs stay byte-identical by construction.
 SENTENCE = (
     "The senator who spent six hours grilling the AI CEO about alignment "
     "just sent his own bill to the clerk as a photograph of his laptop screen."
